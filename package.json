@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://matthewsimmonsdev.github.io/MasterlessGaming/",
+  "homepage": "https://matthewsimmonsdev.github.io/MasterlessGaming/src",
   "scripts": {
     "dev": "vite --port 3000",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d src"
   },
   "dependencies": {
     "axios": "^1.7.2",
